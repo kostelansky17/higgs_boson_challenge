@@ -1,0 +1,21 @@
+Project 1, CS-433 Machine Learning, Autumn semester 2019, EPFL
+
+In this project we have implemented ML methods such as Least
+squares with GD, Least squares with SGD, Least squares using
+normal equations, Logistic regression with SGD and Regularized
+logistic regression. Later, we have used this methods on Higgs
+Boson challenge.
+
+To create the the exact same prediction we have used in our
+best submission run file 'run.py' with command:
+'python3 run.py path_to_train_file path_to_test_file', where
+'path_to_train_file'/'path_to_test_file' corresponds to path
+to train/test file in your local file system.
+
+During the development process we have used Python 3.7 and Numpy
+version 1.17.2. We strongly recommend to use this or newer
+versions.
+
+The comments in out project are following numpydoc docstring
+convention (see https://numpydoc.readthedocs.io/en/latest/format.html).
+Our code is formatted with Black (see https://github.com/psf/black).
